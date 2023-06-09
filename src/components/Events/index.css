@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.bg-container-events {
+  display: flex;
+  overflow: auto;
+  font-family: 'Roboto';
+}
+.events-section {
+  width: 60%;
+  background-color: #323f4b;
+  padding-left: 20px;
+  height: 100%;
+}
+.events-section-heading {
+  font-size: 30px;
+  color: #ffffff;
+}
+.events-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.event-name {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.event-location {
+  font-size: 10px;
+  color: #f8fafc;
+}
